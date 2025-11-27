@@ -164,15 +164,15 @@ export function About() {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-8">
-            <Button className="rounded-full shadow-md">
+            <Button className="cursor-pointer rounded-full shadow-md">
               <Mail className="w-4 h-4 mr-2" />
               Email Us
             </Button>
-            <Button variant="outline" className="rounded-full border-2">
+            <Button variant="outline" className="cursor-pointer rounded-full border-2">
               <Twitter className="w-4 h-4 mr-2" />
               Twitter
             </Button>
-            <Button variant="outline" className="rounded-full border-2">
+            <Button variant="outline" className="cursor-pointer rounded-full border-2">
               <Github className="w-4 h-4 mr-2" />
               GitHub
             </Button>

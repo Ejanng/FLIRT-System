@@ -72,7 +72,7 @@ export function Home() {
               <Link to="/report" className="w-full sm:w-auto">
                 <Button 
                   size="lg" 
-                  className="w-full sm:w-auto text-lg px-8 py-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all hover:scale-105"
+                  className=" cursor-pointer w-full sm:w-auto text-lg px-8 py-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all hover:scale-105"
                 >
                   <FileText className="w-5 h-5 mr-2" />
                   Report Lost Item
@@ -83,7 +83,7 @@ export function Home() {
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="w-full sm:w-auto text-lg px-8 py-6 rounded-2xl border-2 border-primary bg-white hover:bg-primary hover:text-white shadow-lg hover:shadow-xl transition-all hover:scale-105"
+                  className="cursor-pointer w-full sm:w-auto text-lg px-8 py-6 rounded-2xl border-2 border-primary bg-white hover:bg-primary hover:text-white shadow-lg hover:shadow-xl transition-all hover:scale-105"
                 >
                   <Search className="w-5 h-5 mr-2" />
                   Find My Item
@@ -212,12 +212,12 @@ export function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/about">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto rounded-xl border-2">
+                <Button variant="outline" size="lg" className="cursor-pointer w-full sm:w-auto rounded-xl border-2">
                   Learn More About Us
                 </Button>
               </Link>
               <Link to="/report">
-                <Button size="lg" className="w-full sm:w-auto rounded-xl shadow-lg">
+                <Button size="lg" className="cursor-pointer w-full sm:w-auto rounded-xl shadow-lg">
                   Start Helping Today
                 </Button>
               </Link>

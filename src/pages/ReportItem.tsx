@@ -362,7 +362,7 @@ export function ReportItem() {
             <Button 
               type="submit"
               size="lg"
-              className="w-full bg-[#5B8FB9] hover:bg-[#4A7A9F] text-white py-3 md:py-4 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md disabled:opacity-50 disabled:cursor-not-allowed h-12 md:h-14 text-base md:text-lg"
+              className="cursor-pointer w-full bg-[#5B8FB9] hover:bg-[#4A7A9F] text-white py-3 md:py-4 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md disabled:opacity-50 disabled:cursor-not-allowed h-12 md:h-14 text-base md:text-lg"
               disabled={isLoading}
             >
               {isLoading ? (

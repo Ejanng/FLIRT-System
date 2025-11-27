@@ -353,7 +353,7 @@ export function ClaimItem() {
                       <Button
                         onClick={() => handleClaimItem(item)}
                         size="lg"
-                        className="w-full bg-[#5B8FB9] hover:bg-[#4A7A9F] text-white h-11 md:h-auto"
+                        className="cursor-pointer w-full bg-[#5B8FB9] hover:bg-[#4A7A9F] text-white h-11 md:h-auto"
                         aria-label={`Claim ${item.itemName}`}
                       >
                         Claim This Item

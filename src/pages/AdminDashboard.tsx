@@ -269,28 +269,28 @@ export function AdminDashboard() {
             <TabsList className="bg-white shadow-md h-auto flex-wrap justify-start gap-2 p-2">
               <TabsTrigger 
                 value="reports" 
-                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-primary data-[state=active]:to-blue-400 data-[state=active]:text-white rounded-lg px-4 py-2"
+                className="cursor-pointer data-[state=active]:bg-gradient-to-r data-[state=active]:from-primary data-[state=active]:to-blue-400 data-[state=active]:text-white rounded-lg px-4 py-2"
               >
                 <Package className="w-4 h-4 mr-2" />
                 All Reports
               </TabsTrigger>
               <TabsTrigger 
                 value="claims"
-                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-primary data-[state=active]:to-blue-400 data-[state=active]:text-white rounded-lg px-4 py-2"
+                className="cursor-pointer data-[state=active]:bg-gradient-to-r data-[state=active]:from-primary data-[state=active]:to-blue-400 data-[state=active]:text-white rounded-lg px-4 py-2"
               >
                 <CheckCheck className="w-4 h-4 mr-2" />
                 Verify Claims
               </TabsTrigger>
               <TabsTrigger 
                 value="users"
-                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-primary data-[state=active]:to-blue-400 data-[state=active]:text-white rounded-lg px-4 py-2"
+                className="cursor-pointer data-[state=active]:bg-gradient-to-r data-[state=active]:from-primary data-[state=active]:to-blue-400 data-[state=active]:text-white rounded-lg px-4 py-2"
               >
                 <Shield className="w-4 h-4 mr-2" />
                 Manage Users
               </TabsTrigger>
               <TabsTrigger 
                 value="analytics"
-                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-primary data-[state=active]:to-blue-400 data-[state=active]:text-white rounded-lg px-4 py-2"
+                className="cursor-pointer data-[state=active]:bg-gradient-to-r data-[state=active]:from-primary data-[state=active]:to-blue-400 data-[state=active]:text-white rounded-lg px-4 py-2"
               >
                 <TrendingUp className="w-4 h-4 mr-2" />
                 Analytics
